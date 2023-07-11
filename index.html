@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
@@ -15,16 +16,22 @@
 <body>
     <div class="caixa-maior">
         <input class="input-cidade" placeholder="digite o nome da cidade">
-        <button>Buscar</button>
+        <button class="botao-buscar">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        </button>
 
-        <h2>cidade</h2>
+        <div class="caixa-media">
+        <h2 class="cidade">Tempo em São Paulo</h2>
 
-        <p>temperatura</p>
+        <p class="temp">21° C</p>
 
-        <img alt="ícone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+        <div class="caixa-menor">
+        <img class="img-previsao" alt="ícone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+        <p class="texto-previsao">Nublado</p>
+        </div>
 
-        <p>Umidade</p>
-
+        <p class="umidade">Umidade: 76°</p>
+    </div>
     </div>
 
 </body>
