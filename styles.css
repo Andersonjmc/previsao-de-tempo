@@ -15,7 +15,7 @@ body {
     /* Alinhar eixo horizontal */
     align-items: center;
     /* Alinhar eixo vertical */
-    background-image: url("https://images.unsplash.com/photo-1506260408121-e353d10b87c7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4OTAzMjIwNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
 .caixa-maior {
