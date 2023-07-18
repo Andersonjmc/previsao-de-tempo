@@ -83,6 +83,7 @@ body {
 .texto-previsao {
     color: #ffffff;
     margin-left: 20px;
+    text-transform: capitalize; /* Deixa a primeira letra maiúscula*/
 }
 
 .umidade {
